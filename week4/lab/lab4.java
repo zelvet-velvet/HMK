@@ -7,6 +7,8 @@ class lab4 {
 		  rightslide();
 		  System.out.println(" ");
 		  leftslide();
+		  System.out.println(" ");
+		  triangle();
 		}
 		public static void squire(){ //(1)
 		  int i=0;
@@ -59,11 +61,11 @@ class lab4 {
 			}
 		}
 		public static void triangle(){
-			int k=0, i=1, j=0, l=0;
+			int k=0, i=1, j=0, l=1;
 			while(i<10)
 			{	
 				k=(9-i)/2;
-				while(j<k+1)
+				while(j<k)
 				{
 					System.out.print(" ");
 					j++;
@@ -72,18 +74,20 @@ class lab4 {
 
 				if(i==1)
 				{
-					System.out.print(i+1);
+					System.out.print(l);
 				}
 				else
 				{
-					while(j<i)
+					while(j<i+1)
 					{
-						System.out.print(i+1);
+						System.out.print(l);
 						j++;
 					}
 				}
+				j=0;
 				i+=2;
-				System.out.println("\n");
+				l++;
+				System.out.println("");
 			}
 		}
 }
