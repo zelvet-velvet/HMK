@@ -1,7 +1,7 @@
 
 
 import java.util.*;
-//@@
+//Fibonacci 
 class lab1{//Fibonacci
 public static void main(String[] args) {
 	Scanner sb=new Scanner(System.in);
