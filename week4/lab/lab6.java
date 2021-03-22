@@ -30,7 +30,6 @@ class lab6 {
         i=i*-1;
       }
       //
-	  System.out.println(f+" "+x+" "+i+" "+h+" "+l);
       j=1;
       f=1;
       l+=2;
