@@ -1,5 +1,5 @@
 import java.util.*;
-class Main {
+class lab6 {
   public static void main(String[] args) {
     Scanner sb=new Scanner(System.in);
     double x, n;
@@ -7,7 +7,8 @@ class Main {
     double k=0, j=1, l=1, i=1, h=0;//tool
     System.out.print("sinx, x= ");
     x=sb.nextInt();
-    System.out.println("x^n, n= ");
+    System.out.print("");
+    System.out.print("x^n, n= ");
     n=sb.nextInt();
     while(w<n)
     { 
@@ -29,6 +30,7 @@ class Main {
         i=i*-1;
       }
       //
+	  System.out.println(s+" "+i+" "+h);
       j=1;
       f=1;
       l+=2;
