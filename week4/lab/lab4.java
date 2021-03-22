@@ -128,53 +128,52 @@ class Main {
 
   }
   public static void numstriangle(){
-      int k=0, i=1, j=0, l=1, p, q=1;
-			while(i<10)
-			{	
-				k=(9-i)/2;
-				while(j<k)
-				{
-					System.out.print(" ");
-					j++;
-				}
-				j=0;
-
+    int k=0, i=1, j=0, l=1, p, q=1;
+		while(i<10)
+		{	
+			k=(9-i)/2;
+			while(j<k)
+			{
+				System.out.print(" ");
+				j++;
+			}
+			j=0;
 				if(i==1)
-				{
-					System.out.print("1");
+			{
+				System.out.print("1");
+			}
+			else
+			{ 
+			  p=q;
+			  while(j<i)
+			  {
+			    if(j<=((i/2)-1))
+			    { 
+			      if(p==1)
+			      {
+			   	    System.out.print(p);
+			   	    p++;
+			      }
+			      else if(p!=1)
+			      {
+			        System.out.print(p);
+			   	    p--;
+			      }
+			    }
+			    else if(j>((i/2)-1))
+			    {
+			      System.out.print(p);
+			      p++;
+			    }
+			    j++;
 				}
-				else
-				{ 
-				  p=q;
-				  while(j<i)
-				  {
-				    if(j<=((i/2)-1))
-				    { 
-				      if(p==1)
-				      {
-				   	    System.out.print(p);
-				   	    p++;
-				      }
-				      else if(p!=1)
-				      {
-				        System.out.print(p);
-				   	    p--;
-				      }
-				    }
-				    else if(j>((i/2)-1))
-				    {
-				      System.out.print(p);
-				      p++;
-				    }
-				    j++;
-				  }
-				}
-				j=0;
-				i+=2;
-				l++;
-				q++;
-				System.out.println("");
-			} 
+			}
+			j=0;
+			i+=2;
+			l++;
+			q++;
+			System.out.println("");
+		} 
   }
 }
 
