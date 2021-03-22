@@ -1,5 +1,5 @@
 import java.util.*;
-public class Main {
+public class lab7 {
   public static void main(String[] args) {
     String[] names={"bob","mary","joe"};
     for (String name : names)
@@ -40,7 +40,6 @@ public class Main {
         i=i*-1;
       }
       //
-	    System.out.println(x+" "+l+" "+f+" "+h+" "+s);
       j=1;
       f=1;
       l+=2;
