@@ -10,10 +10,16 @@ class Main {
     n=sb.nextInt();
     while(true)
     { 
-      i=
-      for(int f=0;f<j;f++)
+      for(int i=1;i<a+1;i++)
       {
-        k=k*k+1;
+        while(j<i+1)
+        {
+          f=f*j;
+          j++;
+        }
+        c=(i/f);
+        h=h+c;
+        c=0;
       }
       a=i*Math.pow(x,n)/k;
       s=s+a;
