@@ -1,5 +1,5 @@
 import java.util.*;
-class Main {
+class lab4 {
   public static void main(String[] args) {
     squire();
     System.out.println(" ");
@@ -176,4 +176,3 @@ class Main {
 		} 
   }
 }
-

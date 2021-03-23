@@ -1,5 +1,5 @@
 import java.util.*;
-class Main {
+class lab5 {
   public static void main(String[] args) {
     int i=1, j=0, l=0, k=1;
     while(i<6)

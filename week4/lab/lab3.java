@@ -8,7 +8,7 @@ class lab3{//1-(1/2)+(1/3)-......
 	    	{
 				b=(1/i);
 		        c=c+b;
-		        if(i==Math.abs(a))
+		        if(a==Math.abs(i))
 				{
 					break;
 			    }

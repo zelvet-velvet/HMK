@@ -1,9 +1,6 @@
 import java.util.*;
 public class lab7 {
   public static void main(String[] args) {
-    String[] names={"bob","mary","joe"};
-    for (String name : names)
-      System.out.println(name);
     Scanner sb=new Scanner(System.in);
     double x, n;
     double s=0, w=0, f=1;
