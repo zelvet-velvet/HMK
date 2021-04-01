@@ -1,7 +1,7 @@
 import java.util.*;
-class Main {
+class letter_animation {
   static int anime;
-  
+ static Scanner sb=new Scanner(System.in); 
   public static void ww(int i) {
     try
     {
@@ -24,8 +24,7 @@ class Main {
         anime++;
         Thread.sleep(i);
       }
-      System.out.print("\r                          ");
-      System.out.print("\n");
+      System.out.print("\r                          \r");
     }
     catch(InterruptedException e)
     {
@@ -36,6 +35,7 @@ class Main {
   {
     int i =550;
     ww(i);
-    
+	String a=sb.nextLine();
+	System.out.println(a);
   }
 }
