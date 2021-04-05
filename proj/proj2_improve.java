@@ -2,6 +2,9 @@
 import java.util.*;
 import java.io.IOException;
 class proj2_improve {
+	public static final String ANSI_RED = "\u001B[31m";
+	public static final String ANSI_GREEN = "\u001B[32m";
+	public static final String ANSI_YELLOW = "\u001B[33m";
 	static int anime=1, i=60;
 	static Scanner sb= new Scanner(System.in);
   	static Random dsb=new Random();
@@ -112,7 +115,7 @@ class proj2_improve {
         switch(anime)
         {
           case 1:
-            System.out.println("⠀⠀⡠⠔⠒⠒⡖⠉⠉⠉⢢⠤⠄⣀");
+            System.out.println(ANSI_RED+"⠀⠀⡠⠔⠒⠒⡖⠉⠉⠉⢢⠤⠄⣀");
             break;
           case 2:
             System.out.println("⠀⢸⠀⠀⠀⠀⡇⠀⠀⠀⢸⠀⠀⠀⠱");
