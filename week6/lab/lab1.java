@@ -18,7 +18,7 @@ class lab1 {
 	
 	public static void main(String[] args) {
 		lab1 a=new lab1();// Create an object of class lab1(It will call the constructor)
-		// print it the List out
+		// print the List out
 		System.out.println(Arrays.toString(a.b.toArray()).replaceAll("\\[|\\]|,|\\s|",""));
 	}
 	
