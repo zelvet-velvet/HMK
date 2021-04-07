@@ -1,5 +1,5 @@
 import java.util.*;
-class Main {
+class tt3 {
   static int v=0;
   public static void main(String[] args) {
     int[] a=new int [20];

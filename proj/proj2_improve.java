@@ -5,6 +5,7 @@ class proj2_improve {
 	public static final String ANSI_RED = "\u001B[31m";
 	public static final String ANSI_GREEN = "\u001B[32m";
 	public static final String ANSI_YELLOW = "\u001B[33m";
+	public static final String ANSI_RESET = "\u001B[0m";
 	static int anime=1, i=60;
 	static Scanner sb= new Scanner(System.in);
   	static Random dsb=new Random();
@@ -19,8 +20,9 @@ class proj2_improve {
 		cls();
 		while(true)
 		{
-    			System.out.println("Let's play a game!\nEnter paper (0), scissor (1), stone (2) !");
+    			System.out.println("Let's play a game!\nEnter papper (0), scissor (1), stone (2) !");
 			state();
+			System.out.println("");
 		}
 	}
 	public static void state(){
@@ -115,7 +117,7 @@ class proj2_improve {
         switch(anime)
         {
           case 1:
-            System.out.println(ANSI_RED+"⠀⠀⡠⠔⠒⠒⡖⠉⠉⠉⢢⠤⠄⣀");
+            System.out.println(ANSI_GREEN+"⠀⠀⡠⠔⠒⠒⡖⠉⠉⠉⢢⠤⠄⣀");
             break;
           case 2:
             System.out.println("⠀⢸⠀⠀⠀⠀⡇⠀⠀⠀⢸⠀⠀⠀⠱");
@@ -139,7 +141,7 @@ class proj2_improve {
 	    	System.out.println("⠈⠢⣀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⠌");
 	    	break;
 	  	  case 9:
-	    	System.out.println("⠀⠀⠀⠉⠒⠤⢄⣀⣀⠀⠀⢀⣀⣀⠤⠒⠁");
+	    	System.out.println("⠀⠀⠀⠉⠒⠤⢄⣀⣀⠀⠀⢀⣀⣀⠤⠒⠁"+ANSI_RESET );
 	    	break;
           default:
             anime = 0;
@@ -161,7 +163,7 @@ class proj2_improve {
         switch(anime)
         {
           case 1:
-            System.out.println("⠀⡤⠀⠤⡀⠀⠀⠀⢀⠀⣀⠀");
+            System.out.println(ANSI_RED+"⠀⡤⠀⠤⡀⠀⠀⠀⢀⠀⣀⠀");
             break;
           case 2:
             System.out.println(" ⡇⠀⠀⠃⠀⠀⢠⠁⠀⠀⠁");
@@ -194,7 +196,7 @@ class proj2_improve {
 	    	System.out.println("⠰⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⠃");
 	    	break;
 	      case 12:
-	    	System.out.println("⠀⠑⠤⠄⠀⠤⠠⠤⠔⠒⠁");
+	    	System.out.println("⠀⠑⠤⠄⠀⠤⠠⠤⠔⠒⠁"+ANSI_RESET);
 	    	break;
           default:
             anime = 0;
@@ -216,7 +218,7 @@ public static void pp(int i) {
         switch(anime)
         {
           case 1:
-            System.out.println("⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀  ⣀");
+            System.out.println(ANSI_YELLOW+"⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀  ⣀");
             break;
           case 2:
             System.out.println("⠀⠀⠀⠀⢠⠒⠦ ⠀ ⡈ ⠈⠀⠀⢀⣀⡀");
@@ -249,7 +251,7 @@ public static void pp(int i) {
 	    	System.out.println("⠀⠀⠀⠀⠢⣀⠀⠀⠀⠀⠀⠀⠀⠀⡠⠁");
 	        break;
 	  	  case 12:
-	    	System.out.println("⠀⠀⠀⠀⠀⠀⠉⠀⠉⠒⠒⠒⠂⠉");
+	    	System.out.println("⠀⠀⠀⠀⠀⠀⠉⠀⠉⠒⠒⠒⠂⠉"+ANSI_RESET);
 	    	break;
           default:
             anime = 0;
