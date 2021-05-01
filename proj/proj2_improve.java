@@ -1,4 +1,3 @@
-
 import java.util.*;
 import java.io.IOException;
 class proj2_improve {
@@ -22,7 +21,7 @@ class proj2_improve {
 		{
     			System.out.println("Let's play a game!\nEnter papper (0), scissor (1), stone (2) !");
 			state();
-			System.out.println("");
+			System.out.println(" ");
 		}
 	}
 	public static void state(){
@@ -269,6 +268,7 @@ public static void pp(int i) {
   {
    	try
 	{
+		//("cmd.exe","yourpath","cls")
 		new ProcessBuilder("cmd.exe","/mnt/c","cls").inheritIO().start().waitFor();	
 	}
 	catch(Exception E)
